@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(71, 171, 233);
+}
+.square{
+    width: 80%;
+    max-width: 400px;
+    background-image: url(image.jpg);
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fc0ed0;
+    margin: 150px auto;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.stop ,.restart{
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    color: rgb(243, 246, 246);
+    cursor: pointer;
+}
+.start{
+    display: inline-block;
+    background: rgb(45, 43, 43);
+    outline: none;
+    border: none;
+    font-size: 40px;
+    color: rgb(247, 243, 243);
+    border-radius: 50%;
+    width: 45px;
+    padding: 20px;
+    margin: 0 20px 0 20px;
+    cursor: pointer;
+    padding-left: 27px;
+}

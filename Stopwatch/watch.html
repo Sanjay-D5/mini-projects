@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <script
+      src="https://kit.fontawesome.com/5df0c5c186.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="watch.css" />
+  </head>
+  <body>
+    <div class="square">
+      <h1 id="display-date">00:00:00</h1>
+      <div class="controls">
+        <a class="stop" onclick="watchStop()"
+          ><i class="fa-regular fa-circle-stop"></i
+        ></a>
+        <a class="start" onclick="watchStart()"
+          ><i class="fa-solid fa-play"></i
+        ></a>
+        <a class="restart" onclick="watchRestart()">
+          <i class="fa-solid fa-hourglass-start"></i>
+        </a>
+      </div>
+      <script src="watch.js"></script>
+    </div>
+  </body>
+</html>

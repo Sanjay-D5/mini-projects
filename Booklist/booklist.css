@@ -1,0 +1,55 @@
+#book-form {
+    margin-top: 2%;
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+.book {
+    color: chocolate;
+}
+label {
+    display: block;
+    font-size: larger;
+    margin-top: 2%;
+}
+input[type="text"] {
+    width: 100%;
+    margin: auto;
+    height: 6%;
+}
+#button {
+    width: 100%;
+    margin-top: 5% !important;
+    margin: auto;
+    height: 6%;
+    background-color: rgb(18, 93, 234);
+    font-size: medium;
+    color: white;
+}
+table {
+    margin-top: 5%;
+    width: 100%;
+}
+a {
+    background-color: red;
+    color: white;
+    padding: 10%;
+    text-decoration: none;
+    font-size: x-small;
+}
+#book-list {
+    text-align: center;
+}
+table,
+th,
+d {
+    border-top: 2px solid rgb(120, 115, 115);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-collapse: collapse;
+    background-color: gainsboro;
+    text-align: center;
+}
+   

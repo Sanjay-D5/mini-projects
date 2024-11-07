@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5df0c5c186.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="noti.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">Success</button>
+      <div class="popup" id="popup">
+        <span class="thumbs"><i class="fa-solid fa-thumbs-up"></i></span>
+        <h1>Thank You</h1>
+        <h5>Your details has been successfully submitted....</h5>
+
+        <button class="in-btn" onclick="closePopup()">OK</button>
+      </div>
+      <script src="noti.js"></script>
+    </div>
+  </body>
+</html>
