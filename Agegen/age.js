@@ -17,21 +17,22 @@ function calculateAge(){
 
     let d3 , m3 , y3;
 
-    y3 = y2 - y1;       24    
-
-    if(m2 >= m1){  //it means the birhday has already occured or in this month      4 > 11
-        m3 = m2 - m1;       
+    y3 = y2 - y1;          
+    
+    if(m2 >= m1){  //it means the birthday has already occured or in this month      
+        m3 = m2 - m1;
     } else {
-        y3--;           23
-        m3 = 12 + m2 - m1;      12 + 4 - 11 (5)
+        y3--;           
+        m3 = 12 + m2 - m1;      
     } 
 
     if(d2 >= d1){
         d3 = d2 - d1;
     } else {
-        m3--;   4
-        d3 = getdaysInMonth(y1, m1)+ d2 -d1;   
+        m3--;   
+        d3 = getdaysInMonth(y1, m1)+ d2 -d1;  
     }
+
     if(m3 < 0){
         m3 = 11;
         y3--;
