@@ -34,3 +34,44 @@
     </div>
   </body>
 </html>
+
+
+<!-- HTML data attributes, often referred to as data-* attributes, allow you to store custom data on HTML elements. These attributes are particularly useful for embedding custom data that can be accessed via JavaScript or CSS, without requiring any server-side database queries or AJAX calls
+1
+.
+
+Syntax and Usage
+
+The syntax for data attributes is straightforward. Any attribute name that starts with data- is considered a data attribute. For example:
+
+<article id="electric-cars" data-columns="3" data-index-number="12314" data-parent="cars"></article>
+In this example, the article element has three data attributes: data-columns, data-index-number, and data-parent
+2
+.
+
+Accessing Data Attributes in JavaScript
+
+You can access data attributes in JavaScript using the dataset property of the DOM element. The dataset property returns a DOMStringMap object, which allows you to get and set data attributes easily. For example:
+
+const article = document.querySelector("#electric-cars");
+console.log(article.dataset.columns); // "3"
+console.log(article.dataset.indexNumber); // "12314"
+console.log(article.dataset.parent); // "cars"
+
+// Setting a data attribute
+article.dataset.columns = 5;
+Note that the attribute names are converted to camelCase in the dataset object
+2
+.
+
+Styling with Data Attributes
+
+Data attributes can also be used in CSS to apply styles based on their values. For example:
+
+article[data-columns="3"] {
+width: 400px;
+}
+
+article[data-columns="4"] {
+width: 600px;
+} -->
